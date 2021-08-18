@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftside">
+            <img src="assets/img/login.png" alt="">
+        </div>
+        <div class="rightside">
+            <h1>login</h1>
+
+            <form action="Bemvindo.html" method="POST" class='formulario'>
+                <label>Usuário</label>
+                <input type="text" name="usuario" data-rules="required">
+
+                <label>Senha</label>
+                <input type="password" name="senha" data-rules="required">
+
+                <input type="submit" value="Enviar" class="btn"></input>
+
+                <h4> Não tem um conta?<a href="cadastro.html">Faça o Cadastro</a> </h4>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/validaCPF.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

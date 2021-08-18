@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="leftside">
+      <img src="assets/img/cadastro.png" alt="">
+    </div>
+    <div class="rightside">
+      <h1>Formulário de cadastro</h1>
+
+      <form action="formularioEnviado.html" method="POST" class='formulario'>
+        <label>Nome</label>
+        <input type="text" name="nome" data-rules="required">
+
+        <label>Sobrenome</label>
+        <input type="text" name="Sobrenome" data-rules="required">
+
+        <label>E-mail</label>
+        <input type="email" name="email" data-rules="required">
+
+        <label>Usuário</label>
+        <input type="text" name="usuario" data-rules="required">
+
+        <label>Senha</label>
+        <input type="password" name="senha" data-rules="required">
+
+        <input type="submit" value="Enviar" class="btn"></input>
+
+        <h4> já tem uma conta?<a href="index.html">Faça o Login</a> </h4>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/validaCPF.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
